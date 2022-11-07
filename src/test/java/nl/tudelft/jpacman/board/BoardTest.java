@@ -3,14 +3,21 @@ package nl.tudelft.jpacman.board;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-// Test Board
+
+/**
+ * Basic implementation of unit.
+ *
+ * @author Jeroen Roosen 
+ */
 public class BoardTest {
     private Square[][] grid;
     private Board board;
 
     private final Square square = new BasicSquare();
 
-    // Test Basic Square
+    /**
+     * basicSquare
+     */
     @Test
     void basicSquare() {
         grid = new Square[][]{{ square, square}};
@@ -18,7 +25,9 @@ public class BoardTest {
         assertThat(board.invariant()).isEqualTo(true);
     }
 
-    // Test testSquareAt
+    /**
+     * testSquareAt
+     */
     @Test
     void testSquareAt() {
         grid = new Square[][]{
@@ -29,7 +38,9 @@ public class BoardTest {
 
     }
 
-    // Test testSquareAt2
+    /**
+     * testSquareAt2
+     */
     @Test
     void testSquareAt2() {
         grid = new Square[][]{
