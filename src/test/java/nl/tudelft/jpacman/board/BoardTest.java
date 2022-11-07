@@ -16,7 +16,7 @@ public class BoardTest {
     private final Square square = new BasicSquare();
 
     /**
-     * basicSquare
+     * basicSquare.
      */
     @Test
     void basicSquare() {
@@ -26,7 +26,7 @@ public class BoardTest {
     }
 
     /**
-     * testSquareAt
+     * testSquareAt.
      */
     @Test
     void testSquareAt() {
@@ -39,7 +39,7 @@ public class BoardTest {
     }
 
     /**
-     * testSquareAt2
+     * testSquareAt2.
      */
     @Test
     void testSquareAt2() {
