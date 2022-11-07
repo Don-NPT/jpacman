@@ -26,19 +26,6 @@ public class BoardTest {
     }
 
     /**
-     * testSquareAt.
-     */
-    @Test
-    void testSquareAt() {
-        grid = new Square[][]{
-            {square, null}
-        };
-        board = new Board(grid);
-        assertThat(board.squareAt(0, 0)).isEqualTo(square);
-
-    }
-
-    /**
      * testSquareAt2.
      */
     @Test
